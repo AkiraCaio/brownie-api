@@ -1,0 +1,30 @@
+{
+  "name": "brownie-api",
+  "version": "1.0.0",
+  "description": "servico para controlar as informacoes de vendas dos brownie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkiraCaio/brownie-api.git"
+  },
+  "author": "AkiraCaio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkiraCaio/brownie-api/issues"
+  },
+  "homepage": "https://github.com/AkiraCaio/brownie-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
